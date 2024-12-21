@@ -7,7 +7,7 @@ const Header = ({ showForm, setShowForm, setEditingVehicle }) => {
   return (
     <div className="flex flex-col sm:flex-row justify-between items-center gap-4 bg-white/50 backdrop-blur-sm p-6 rounded-xl shadow-sm">
       <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-        Vehicle Management System
+        GarageX
       </h1>
       <button
         onClick={handleAddClick}
